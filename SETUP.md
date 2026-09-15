@@ -1,122 +1,103 @@
-⚙️ "MYTRIX" — SETUP GUIDE
+# MYTRIX — Setup Guide
 
-«Setup instructions for the MYTRIX Discord Bot.»
+This guide explains how to install and run MYTRIX locally.
 
----
+## Requirements
 
-"1. Requirements"
+- Node.js 18 or newer
+- npm
+- A Discord application with a bot
+- Git (optional)
 
-Before starting, install:
+Check your installed versions:
 
-Node.js 18+
-Git
-A Discord Application
-A Discord Bot Token
-
-Check Node.js:
-
+```bash
 node --version
-
-Check npm:
-
 npm --version
+```
 
----
+## 1. Clone the Repository
 
-"2. Clone the Repository"
+Clone the repository and enter its directory:
 
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd YOUR_REPOSITORY_NAME
+```
 
----
+## 2. Install Dependencies
 
-"3. Install Dependencies"
-
+```bash
 npm install
+```
 
----
+## 3. Configure Environment Variables
 
-"4. Configure Environment Variables"
+Create a `.env` file in the project root. Use the variable names required by the source configuration.
 
-Create a file named:
+A typical Discord configuration may look like this:
 
-.env
-
-Example:
-
+```env
 TOKEN=YOUR_DISCORD_BOT_TOKEN
 CLIENT_ID=YOUR_CLIENT_ID
 GUILD_ID=YOUR_GUILD_ID
+```
 
-«⚠️ Never commit ".env" to GitHub.»
+Do not use real credentials in documentation or commit `.env` to GitHub.
 
----
+## 4. Configure `.gitignore`
 
-"5. Configure ".gitignore``
+Make sure sensitive and generated files are ignored. At minimum:
 
-Make sure ".gitignore" contains:
-
+```gitignore
 node_modules/
 .env
 .env.*
 *.log
+```
 
----
+## 5. Deploy Commands
 
-"6. Start MYTRIX"
+If your setup requires separate slash-command deployment, run the project's deployment script:
 
+```bash
+npm run deploy
+```
+
+Make sure the Discord application ID, guild ID, scopes, and permissions are configured correctly.
+
+## 6. Start MYTRIX
+
+For normal use:
+
+```bash
 npm start
+```
 
-Or:
+The package configuration starts the bot from `src/index.js`.
 
-node index.js
+## Troubleshooting
 
----
+### Bot does not start
 
-"7. Development Mode"
+- Confirm the Node.js version is supported.
+- Run `npm install` again.
+- Check that `.env` exists and contains the required variables.
+- Check the first error shown in the console.
 
-If your project supports a development script:
+### Commands do not appear
 
-npm run dev
+- Confirm the bot is invited to the server.
+- Check the required Discord scopes and permissions.
+- Run the command deployment step when required.
+- Verify `CLIENT_ID` and `GUILD_ID`.
 
----
+### Token was exposed
 
-"8. Troubleshooting"
+Regenerate the Discord bot token immediately and update the local `.env` file. Never commit the old or new token.
 
-"Bot does not start"
+## Security
 
-Check:
+Treat bot tokens, API keys, database credentials, private keys, and session credentials as secrets.
 
-✓ Node.js version
-✓ Dependencies installed
-✓ .env exists
-✓ Token is correct
-✓ Configuration is correct
-
-"Commands do not appear"
-
-Check that:
-
-✓ The bot is invited to the server
-✓ Required Discord permissions are enabled
-✓ Command deployment completed
-✓ CLIENT_ID is correct
-✓ GUILD_ID is correct
-
----
-
-"9. Security Reminder"
-
-Never publish:
-
-❌ Discord Bot Token
-❌ API Keys
-❌ Database Passwords
-❌ Private Keys
-❌ Authentication Secrets
-
-If a bot token is accidentally exposed, regenerate it immediately through Discord's developer tools.
-
----
-
-"© 2026 MYTRIX — All Rights Reserved"
+© 2026 MYTRIX

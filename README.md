@@ -1,99 +1,96 @@
-🛒 "VOIDEX STORE"
+# MYTRIX
 
-«Premium digital products, services & Discord solutions.»
+> All-in-one Discord bot for moderation, utilities, automation, music, server management, and more.
 
----
+## Features
 
-📌 "About"
+- 🛡️ Moderation and permission management
+- 👋 Welcome and auto-role systems
+- 📋 Logging and server configuration
+- 🎁 Giveaway and utility commands
+- 🎵 Music and Lavalink integration
+- 📊 Server statistics and automation
 
-"VOIDEX STORE" is a digital store focused on providing Discord services, digital products, bots, configurations, and other online solutions.
+## Requirements
 
-╔══════════════════════════════════╗
-║           VOIDEX STORE            ║
-║      DIGITAL • DISCORD • TECH     ║
-╚══════════════════════════════════╝
+- Node.js 18 or newer
+- npm
+- A Discord application and bot
+- Git (optional)
 
----
+## Quick Start
 
-✨ "What We Offer"
+1. Clone the repository.
+2. Install dependencies.
+3. Create and configure your environment file.
+4. Start the bot.
 
-- 🤖 Discord Bots
-- ⚙️ Bot Source Codes
-- 🛡️ Discord Server Setup
-- 🎨 Server Customization
-- 🔧 Bot Configuration
-- 📦 Digital Products
-- 💻 Development Services
-- 🚀 Custom Discord Solutions
+See **[SETUP.md](SETUP.md)** for the complete setup guide.
 
----
+## Environment Variables
 
-🛍️ "Store"
+Keep secrets in `.env` and never commit them to GitHub. Use `.env.example` when available as a template.
 
-«Browse our available products and services through the official "VOIDEX STORE" channels.»
+Typical variables may include:
 
-[ 🛒 STORE ]
-[ 🤖 BOTS ]
-[ 💻 SOURCE CODE ]
-[ ⚙️ SERVICES ]
-[ 🎨 CUSTOMIZATION ]
+- `TOKEN`
+- `CLIENT_ID`
+- `GUILD_ID`
+- Database or Lavalink settings used by your configuration
 
----
+The exact variables depend on the source configuration.
 
-📞 "Support"
+## Music Search Sources
 
-Need help with an order or product?
+If music search is enabled, `MUSIC_SEARCH_SOURCES` can contain a comma-separated list of search prefixes supported by the connected Lavalink node.
 
-📩 Contact: VOIDEX STORE Support
-⏱️ Response: Depending on availability
+Example:
 
-«Please provide your order information when contacting support.»
+```env
+MUSIC_SEARCH_SOURCES=ytsearch,ytmsearch,scsearch,spsearch,dzsearch,amsearch,tdsearch,qbsearch,ymsearch,vksearch,jssearch,pdsearch,bcsearch
+```
 
----
+The prefixes only work when the corresponding source or plugin is available on the Lavalink node. Setting an environment variable does not install or enable a music source by itself.
 
-🔐 "Important"
+## Useful Commands
 
-- ❌ Do not share passwords or private tokens.
-- ❌ Do not publish purchased source code without permission.
-- ❌ Do not claim "VOIDEX STORE" products as your own.
-- ✅ Read the product terms before purchasing.
-- ✅ Keep your order information safe.
+The available commands depend on the enabled modules and current source configuration. Examples include:
 
----
+- `/help`
+- `/ping`
+- `/serverinfo`
+- `/userinfo`
+- `/giveaway`
 
-📜 "License"
+## Project Structure
 
-Products and source code provided by "VOIDEX STORE" may have individual license terms.
+```text
+src/
+├── commands/
+├── handlers/
+├── config/
+├── data/
+└── index.js
+```
 
-Store: VOIDEX STORE
-Copyright: © 2026 VOIDEX STORE
-License: See the license included with each product
+## Security
 
-«Third-party libraries remain subject to their respective licenses.»
+Never publish or commit:
 
----
+- Discord bot tokens
+- API keys
+- Database credentials
+- Private keys
+- Other authentication secrets
 
-⚠️ "Disclaimer"
+If a token is exposed, revoke or regenerate it immediately.
 
-"VOIDEX STORE" is not affiliated with, sponsored by, or endorsed by Discord unless explicitly stated.
+## License
 
-Discord and its trademarks belong to their respective owners.
+This project is distributed under the license included in the repository.
 
----
+## Disclaimer
 
-👑 "VOIDEX STORE"
+MYTRIX is not affiliated with, sponsored by, or endorsed by Discord. Discord and its trademarks belong to their respective owners.
 
-╔══════════════════════════════════╗
-║          VOIDEX STORE            ║
-║                                  ║
-║    🛒 DIGITAL PRODUCTS           ║
-║    🤖 DISCORD SOLUTIONS          ║
-║    💻 DEVELOPMENT SERVICES       ║
-║                                  ║
-╚══════════════════════════════════╝
-
-"Thank you for choosing VOIDEX STORE!" 🖤
-
----
-
-"© 2026 VOIDEX STORE — All Rights Reserved"
+© 2026 MYTRIX
