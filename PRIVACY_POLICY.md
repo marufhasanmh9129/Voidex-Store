@@ -1,62 +1,58 @@
-# MYTRIX — Privacy Policy
+# VOIDEX STORE — Privacy Policy
 
 **Last Updated: September 15, 2026**
 
-MYTRIX is a Discord bot that provides moderation, utility, automation, music, welcome, and server-management features.
+VOIDEX STORE may provide digital products, Discord services, source code, configuration, and development services.
 
 ## 1. Information We May Process
 
-Depending on the features enabled on a Discord server, MYTRIX may process:
+Depending on the product or service, we may process information necessary to provide and support it, including:
 
-- Discord user, server, channel, and role IDs
-- Message or interaction data required to execute commands
-- Server configuration settings
-- Moderation and logging data when those features are enabled
-- Technical information required for operation and troubleshooting
+- Discord user, server, channel, or role IDs
+- Order and product information supplied by customers
+- Configuration information required for a service
+- Messages, commands, or interaction data required for Discord functionality
+- Technical information needed for troubleshooting and security
 
-MYTRIX does not intentionally request passwords, Discord account tokens, payment-card information, or other authentication credentials through the bot.
+We do not intentionally request passwords, authentication tokens, private keys, or payment credentials through public support channels.
 
 ## 2. How Information Is Used
 
-Information may be processed to:
+Information may be used to:
 
-- Provide and operate bot features
-- Store server configuration
-- Provide moderation and security functionality
-- Send welcome or automated messages
-- Maintain logs when configured by a server administrator
-- Prevent abuse and troubleshoot technical problems
+- Provide and support products and services
+- Process orders and service requests
+- Configure and maintain Discord-related services
+- Prevent abuse, fraud, and unauthorized access
+- Troubleshoot technical issues
+- Meet applicable legal obligations
 
-## 3. Data Storage and Retention
+## 3. Third-Party Services
 
-Some configuration or feature-related information may be stored so that the bot can continue working after restarts. Data is retained only as reasonably necessary for the relevant functionality, security, support, or legal requirements.
+Some products or services may rely on Discord, hosting providers, databases, payment processors, APIs, or other third-party services. Those providers may process information under their own privacy policies and terms.
 
-## 4. Third-Party Services
+## 4. Data Sharing
 
-MYTRIX relies on Discord and may use hosting, database, Lavalink, API, or other infrastructure services. Those services may process information under their own terms and privacy policies.
+VOIDEX STORE does not sell customer information for advertising purposes. Information may be shared when reasonably necessary to provide a service, protect systems, investigate abuse or security incidents, or comply with applicable law.
 
-## 5. Data Sharing
+## 5. Data Retention and Deletion
 
-MYTRIX does not sell information for advertising purposes. Information may be disclosed when reasonably necessary to operate the service, protect users and infrastructure, investigate abuse or security incidents, or comply with applicable law.
+Information may be retained for as long as reasonably necessary for service delivery, support, security, accounting, or legal obligations. Where applicable, customers may request deletion of stored service-related information through the official VOIDEX STORE support channel.
 
-## 6. Data Deletion
+## 6. Security
 
-Server owners or authorized administrators may request deletion of stored MYTRIX-related server data through the official MYTRIX support channel, where applicable.
+Reasonable measures are used to protect information under our control. No internet service can guarantee absolute security.
 
-## 7. Security
+## 7. Children's Privacy
 
-Reasonable measures are used to protect information under our control. However, no online service can guarantee absolute security.
+VOIDEX STORE services must be used in accordance with applicable laws and the age requirements and policies of the platforms involved, including Discord where applicable.
 
-## 8. Children's Privacy
+## 8. Changes
 
-MYTRIX is not designed to intentionally collect personal information from children. Users must comply with Discord's applicable age requirements and policies.
+This policy may be updated when services or legal requirements change. The date above indicates the latest revision.
 
-## 9. Changes to This Policy
+## 9. Contact
 
-This policy may be updated when the service, infrastructure, or applicable legal requirements change. The date above identifies the latest revision.
+For privacy questions or data-related requests, contact VOIDEX STORE through its official support channel.
 
-## 10. Contact
-
-For privacy questions or data-deletion requests, contact the official MYTRIX support team.
-
-© 2026 MYTRIX
+© 2026 VOIDEX STORE

@@ -1,48 +1,43 @@
-# MYTRIX
+# VOIDEX STORE
 
-> All-in-one Discord bot for moderation, utilities, automation, music, server management, and more.
+> Digital products, Discord solutions, source code, configuration, and development services.
 
-## Features
+## About
 
-- 🛡️ Moderation and permission management
-- 👋 Welcome and auto-role systems
-- 📋 Logging and server configuration
-- 🎁 Giveaway and utility commands
-- 🎵 Music and Lavalink integration
-- 📊 Server statistics and automation
+VOIDEX STORE provides digital products and Discord-focused services, including bots, source code, server setup, customization, configuration, and development work.
 
-## Requirements
+## What We Offer
 
-- Node.js 18 or newer
-- npm
-- A Discord application and bot
-- Git (optional)
+- 🤖 Discord bots
+- ⚙️ Bot source code and configuration
+- 🛡️ Discord server setup
+- 🎨 Server customization
+- 📦 Digital products
+- 💻 Development services
+- 🚀 Custom Discord solutions
 
-## Quick Start
+## Getting Started
 
-1. Clone the repository.
-2. Install dependencies.
-3. Create and configure your environment file.
-4. Start the bot.
+If a repository or product contains source code, follow the instructions in **[SETUP.md](SETUP.md)**.
 
-See **[SETUP.md](SETUP.md)** for the complete setup guide.
+Product-specific instructions, licensing terms, and requirements may differ between products.
 
-## Environment Variables
+## Security
 
-Keep secrets in `.env` and never commit them to GitHub. Use `.env.example` when available as a template.
+Never share or commit:
 
-Typical variables may include:
+- Passwords
+- Discord bot tokens
+- API keys
+- Database credentials
+- Private keys
+- Other authentication secrets
 
-- `TOKEN`
-- `CLIENT_ID`
-- `GUILD_ID`
-- Database or Lavalink settings used by your configuration
+Keep sensitive configuration in environment variables or another secure secret-management system.
 
-The exact variables depend on the source configuration.
+## Music Source Configuration
 
-## Music Search Sources
-
-If music search is enabled, `MUSIC_SEARCH_SOURCES` can contain a comma-separated list of search prefixes supported by the connected Lavalink node.
+For products that use Lavalink, `MUSIC_SEARCH_SOURCES` may be configured as a comma-separated list of search prefixes supported by the connected Lavalink node.
 
 Example:
 
@@ -50,47 +45,18 @@ Example:
 MUSIC_SEARCH_SOURCES=ytsearch,ytmsearch,scsearch,spsearch,dzsearch,amsearch,tdsearch,qbsearch,ymsearch,vksearch,jssearch,pdsearch,bcsearch
 ```
 
-The prefixes only work when the corresponding source or plugin is available on the Lavalink node. Setting an environment variable does not install or enable a music source by itself.
+These prefixes only work when the corresponding source or plugin is enabled on the Lavalink node. An environment variable does not install or enable a source by itself.
 
-## Useful Commands
+## Support
 
-The available commands depend on the enabled modules and current source configuration. Examples include:
+For product, order, or service support, use the official VOIDEX STORE support channel and include relevant order or product information when appropriate.
 
-- `/help`
-- `/ping`
-- `/serverinfo`
-- `/userinfo`
-- `/giveaway`
+## Licensing
 
-## Project Structure
-
-```text
-src/
-├── commands/
-├── handlers/
-├── config/
-├── data/
-└── index.js
-```
-
-## Security
-
-Never publish or commit:
-
-- Discord bot tokens
-- API keys
-- Database credentials
-- Private keys
-- Other authentication secrets
-
-If a token is exposed, revoke or regenerate it immediately.
-
-## License
-
-This project is distributed under the license included in the repository.
+Each product may have its own license or purchase terms. Always follow the license included with the applicable product. Third-party libraries remain subject to their respective licenses.
 
 ## Disclaimer
 
-MYTRIX is not affiliated with, sponsored by, or endorsed by Discord. Discord and its trademarks belong to their respective owners.
+VOIDEX STORE is not affiliated with, sponsored by, or endorsed by Discord unless explicitly stated. Discord and its trademarks belong to their respective owners.
 
-© 2026 MYTRIX
+© 2026 VOIDEX STORE

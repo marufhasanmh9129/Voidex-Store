@@ -1,40 +1,39 @@
-# MYTRIX — Terms of Service
+# VOIDEX STORE — Terms of Service
 
 **Last Updated: September 15, 2026**
 
-By using, installing, accessing, or interacting with MYTRIX, you agree to these Terms of Service. If you do not agree, do not use the service.
+By accessing, purchasing, installing, or using a VOIDEX STORE product or service, you agree to these Terms of Service. If you do not agree, do not use the applicable service.
 
-## 1. Service
+## 1. Products and Services
 
-MYTRIX provides Discord bot features such as moderation, utilities, automation, music, server management, and related software functionality. Features may be changed, updated, suspended, or discontinued.
+VOIDEX STORE may provide digital products, Discord bots, source code, server setup, configuration, customization, and development services. Features, availability, and service scope may change.
 
 ## 2. Acceptable Use
 
-You must not use MYTRIX to:
+You must not use our products or services to:
 
 - Violate applicable laws or platform rules
 - Distribute malware or intentionally disrupt systems
-- Attempt unauthorized access
-- Abuse, spam, or harass others
+- Gain unauthorized access to accounts, servers, or systems
+- Abuse, harass, spam, or impersonate others
 - Expose private information or credentials
-- Impersonate MYTRIX or its staff
-- Circumvent security or access controls
+- Circumvent security or licensing controls
 
-## 3. Discord Requirements
+## 3. Discord and Third-Party Services
 
-Users must comply with Discord's applicable Terms of Service, Community Guidelines, and developer requirements when using Discord-related features. MYTRIX is not affiliated with or endorsed by Discord.
+Discord-related products must be used in accordance with Discord's applicable Terms of Service, Community Guidelines, and developer requirements. VOIDEX STORE is not affiliated with or endorsed by Discord unless explicitly stated.
 
-## 4. Intellectual Property
+## 4. Digital Products and Source Code
 
-Unless otherwise stated, MYTRIX software, branding, documentation, and original content remain the property of their respective rights holders. Third-party libraries and components remain subject to their own licenses.
+A product may have additional license or purchase terms. Follow the license included with the applicable product. Third-party libraries and components remain subject to their respective licenses. Do not redistribute or claim ownership of material you are not licensed to redistribute.
 
-## 5. Availability
+## 5. Availability and Support
 
-MYTRIX is provided without a guarantee of uninterrupted or error-free operation. Maintenance, configuration problems, third-party outages, or other technical issues may affect availability.
+Services may be unavailable or interrupted because of maintenance, third-party outages, configuration issues, or other technical circumstances. Support response times are not guaranteed unless a separate agreement states otherwise.
 
 ## 6. Termination
 
-Access may be restricted or terminated when reasonably necessary because of abuse, security concerns, unlawful activity, or material violations of these terms.
+Access or support may be restricted or terminated when reasonably necessary because of abuse, security concerns, unlawful activity, or material violations of these terms.
 
 ## 7. Changes
 
@@ -42,10 +41,10 @@ These terms may be updated from time to time. The latest revision date appears a
 
 ## 8. Disclaimer
 
-To the extent permitted by applicable law, MYTRIX is provided on an as-is and as-available basis without guarantees beyond those expressly stated in applicable documentation or agreements.
+Products and services are provided subject to their applicable documentation and license terms. To the extent permitted by applicable law, no guarantee is made that every product or service will be uninterrupted or error-free.
 
 ## 9. Contact
 
-For questions about these terms, contact the official MYTRIX support team.
+For questions about these terms, contact VOIDEX STORE through the official support channel.
 
-© 2026 MYTRIX
+© 2026 VOIDEX STORE
